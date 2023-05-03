@@ -45,5 +45,10 @@ namespace kapustinRPMBD18
                 }
             }
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("1 - Все ФИО; 2 - ФИО + кол - во деталей; 3 - Изменяет поле; 4 - Удаляет по знач. поля", "Информация");            
+        }
     }
 }
