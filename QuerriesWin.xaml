@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:kapustinRPMBD18"
         mc:Ignorable="d"
-        Title="QuerriesWin" Height="450" Width="800" ResizeMode="NoResize">
+        Title="QuerriesWin" Height="450" Width="800" ResizeMode="NoResize"
+        Loaded="Window_Loaded">
     <Grid>
         <Button x:Name="monkeyFlip" Content="Выполнить запрос" Height="50" Margin="0,300,0,0" Click="monkeyFlip_Click"/>
-        <TextBox x:Name="monkeyBox" Height="50" Margin="0,190,0,0" Text="1 - Все ФИО; 2 - ФИО + кол-во деталей; 3 -  Изменяет поле; 4 - Удаляет по знач. поля" FontSize="18" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
+        <TextBox x:Name="monkeyBox" Height="50" Margin="0,190,0,0" FontSize="18" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
         <DataGrid x:Name="DGQBR" Height="280" Margin="0,0,0,150"/>
     </Grid>
 </Window>
