@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище WorkshopResultsModelContainer" CdmEntityContainer="Entity">
+    <EntitySetMapping Name="MasterPieceAccountings">
+      <EntityTypeMapping TypeName="WorkshopResultsModel.MasterPieceAccounting">
+        <MappingFragment StoreEntitySet="MasterPieceAccounting">
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+          <ScalarProperty Name="ThirdName" ColumnName="ThirdName" />
+          <ScalarProperty Name="WorkshopName" ColumnName="WorkshopName" />
+          <ScalarProperty Name="WorkshopBossName" ColumnName="WorkshopBossName" />
+          <ScalarProperty Name="WorkersCount" ColumnName="WorkersCount" />
+          <ScalarProperty Name="ACount" ColumnName="ACount" />
+          <ScalarProperty Name="BCount" ColumnName="BCount" />
+          <ScalarProperty Name="CCount" ColumnName="CCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
