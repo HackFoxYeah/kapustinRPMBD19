@@ -1,0 +1,17 @@
+﻿<Window x:Class="kapustinRPMBD18.UpdateQuerry"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kapustinRPMBD18"
+        mc:Ignorable="d"
+        Title="UpdateQuerry" Height="300" Width="400" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="Кол-во рабочих в цеху" HorizontalAlignment="Left" Margin="39,92,0,0" VerticalAlignment="Top"/>
+        <Label Content="Новое кол-во рабочих в цеху" HorizontalAlignment="Left" Margin="215,84,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="oldWorkshopNum" Margin="37,123,243,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="newWorkshopNum" Margin="246,123,34,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Обновить" Margin="106,194,94,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,31 @@
+﻿<Window x:Class="kapustinRPMBD18.AddWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kapustinRPMBD18"
+        mc:Ignorable="d"
+        Title="AddWin" Height="700" Width="450" ResizeMode="NoResize">
+    <Grid Margin="0,35,0,-138">
+        <TextBox x:Name="FirstNameTB" Height="25" Width="150" Margin="0,0,0,700"/>
+        <TextBox x:Name="SecondNameTB" Height="25" Width="150" Margin="0,0,0,600"/>
+        <TextBox x:Name="ThirdNameTB" Height="25" Width="150" Margin="0,0,0,500"/>
+        <TextBox x:Name="WorkshopNameTB" Height="25" Width="150" Margin="0,0,0,400"/>
+        <TextBox x:Name="WorkshopBossNameTB" Height="25" Width="150" Margin="0,0,0,300"/>
+        <TextBox x:Name="WorkersCountTB" Height="25" Width="150" Margin="0,0,0,200"/>
+        <TextBox x:Name="AcountTB" Height="25" Width="150" Margin="0,0,0,100"/>
+        <TextBox x:Name="BcountTB" Height="25" Width="150" Margin="0,0,0,0"/>
+        <TextBox x:Name="CcountTB" Height="25" Width="150" Margin="0,0,0,-100"/>
+        <Button x:Name="AddRecordBTN" Content="Добавить" Height="25" Width="70" Margin="0,200,90,0" Click="AddRecordBTN_Click"/>
+        <Button x:Name="CancelTB" Content="Отмена" Height="25" Width="70" Margin="0,200,-90,0" Click="CancelTB_Click"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="185,4,0,0" VerticalAlignment="Top"/>
+        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="175,53,0,0" VerticalAlignment="Top"/>
+        <Label Content="Отчество" HorizontalAlignment="Center" Margin="0,105,0,0" VerticalAlignment="Top"/>
+        <Label Content="Название цеха" HorizontalAlignment="Center" Margin="0,152,0,0" VerticalAlignment="Top"/>
+        <Label Content="Имя начальника цеха" HorizontalAlignment="Center" Margin="0,206,0,0" VerticalAlignment="Top"/>
+        <Label Content="Количество рабочих в цеху" HorizontalAlignment="Center" Margin="0,255,0,0" VerticalAlignment="Top"/>
+        <Label Content="Кол-во А" HorizontalAlignment="Center" Margin="0,306,0,0" VerticalAlignment="Top"/>
+        <Label Content="Кол-во В" HorizontalAlignment="Center" Margin="0,356,0,0" VerticalAlignment="Top"/>
+        <Label Content="Кол-во С" HorizontalAlignment="Center" Margin="0,406,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
