@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="UpdateQuerry" Height="300" Width="400" ResizeMode="NoResize">
     <Grid>
-        <Label Content="Кол-во рабочих в цеху" HorizontalAlignment="Left" Margin="39,92,0,0" VerticalAlignment="Top"/>
-        <Label Content="Новое кол-во рабочих в цеху" HorizontalAlignment="Left" Margin="215,84,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="oldWorkshopNum" Margin="37,123,243,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="newWorkshopNum" Margin="246,123,34,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Кол-во рабочих в цеху" HorizontalAlignment="Left" Margin="140,74,0,0" VerticalAlignment="Top"/>
+        <Label Content="Новое кол-во рабочих в цеху" HorizontalAlignment="Left" Margin="122,23,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="oldWorkshopNum" Margin="0,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="newWorkshopNum" Margin="0,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Content="Обновить" Margin="106,194,94,0" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>
